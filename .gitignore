@@ -1,4 +1,5 @@
 *.deb
 *.tgz
 /build
+/doc-pak
 

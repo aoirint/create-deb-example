@@ -8,7 +8,7 @@ all:
 .PHONY: install
 install:
 	mkdir -p /opt/myexample
-	cp -r build/ /opt/myexample
+	cp -r build/* /opt/myexample
 
 .PHONY: uninstall
 uninstall:

@@ -5,7 +5,7 @@ sudo apt install checkinstall
 
 make all
 
-sudo checkinstall --install=no --pkgname=myexample --pkgversion=0.1.0
+sudo checkinstall --install=no --fstrans=yes --pkgname=myexample --pkgversion=0.1.0
 
 ls | grep .deb
 # myexample_0.1.0-1_amd64.deb
